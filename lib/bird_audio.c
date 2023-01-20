@@ -36,7 +36,8 @@ static float minf(float a, float b)
 	return a < b ? a : b;
 }
 
-float hard_clip(float sample) {
+float hard_clip(float sample) 
+{
 	return maxf(minf(sample, 1.0f), -1.0f);
 }
 

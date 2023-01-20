@@ -9,7 +9,7 @@ build/obfuscated_lonely_bird: obfuscated_lonely_bird.c
 	@echo "******* WARNING: LOTS OF WARNINGS **********"
 	@echo "********************************************"
 	@echo "\e[0m"
-	gcc obfuscated_lonely_bird.c -o build/obfuscated_lonely_bird -lm
+	gcc obfuscated_lonely_bird.c -o build/obfuscated_lonely_bird -lm -Wno-implicit-int -Wno-implicit-function-declaration
 
 clean:
 	rm build/birds build/obfuscated_lonely_bird

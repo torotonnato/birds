@@ -6,7 +6,7 @@ build/birds: birds.c
 build/obfuscated_lonely_bird: obfuscated_lonely_bird.c
 	@echo "\e[31m"
 	@echo "********************************************"
-	@echo "******** WARNING: LOTS OF WARNING **********"
+	@echo "******* WARNING: LOTS OF WARNINGS **********"
 	@echo "********************************************"
 	@echo "\e[0m"
 	gcc obfuscated_lonely_bird.c -o build/obfuscated_lonely_bird -lm

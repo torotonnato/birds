@@ -1,2 +1,2 @@
 #include <math.h>
-main(f,i,s,o){for (i=o=0;;putchar(s=o>0?127*sin(.43*i-750*cos(142e-6*f*i)/f):0))if(o*o>1)o>1?o--:o++,i++;else o=o>0?-rand()%20000-8000:rand()%10000+2000,f=rand()%10+8;}
+main(b,i,r,d){for(i=d=0;;putchar(r=d>0?127*sin(.43*i-750*cos(142e-6*b*i)/b):0))if(d*d>1)d>1?d--:d++,i++;else d=d>0?-rand()%20000-8e3:rand()%10000+2e3,b=rand()%10+8;}
